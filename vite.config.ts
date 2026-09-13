@@ -8,6 +8,11 @@ export default defineConfig({
     react(),
   ],
   ssr: {
-    noExternal: ['tslib'],
+    noExternal: true,
+  },
+  build: {
+    rollupOptions: {
+      external: [],
+    },
   },
 })
