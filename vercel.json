@@ -1,0 +1,11 @@
+{
+  "framework": null,
+  "functions": {
+    "api/**": {
+      "includeFiles": "node_modules/tslib/**"
+    },
+    ".output/**": {
+      "includeFiles": "node_modules/tslib/**"
+    }
+  }
+}
