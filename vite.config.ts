@@ -7,4 +7,7 @@ export default defineConfig({
     tanstackStart(),
     react(),
   ],
+  ssr: {
+    noExternal: ['tslib'],
+  },
 })
